@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./src/styles/reset.css">
+    <link rel="stylesheet" href="./src/styles/styleGlobal.css">
+    <link rel="stylesheet" href="./src/styles/header.css">
+    <link rel="stylesheet" href="./src/styles/main.css">
+    <link rel="stylesheet" href="./src/styles/media.css">
+    <link rel="stylesheet" href="./src/styles/modal.css">
+    <script src="./src/scripts/sugestUsers.js" defer></script>
+    <script src="./src/scripts/aside.js" defer></script>
+    <script src="./src/scripts/posts.js" defer></script>
+    <script src="./src/scripts/users.js" defer></script>
+    <script src="./src/scripts/main.js" defer></script>
+    <script src="https://kit.fontawesome.com/663b1516fd.js" crossorigin="anonymous" defer></script>
+    <script src="./src/scripts/modal.js" defer></script>
+    <title>Rede Social</title>
+</head>
+
+<body>
+    <header>
+
+        <div class="header__container">
+            <h1 class="header__tittle">TechPosters</h1>
+            <span class="header__sair">Sair</span>
+        </div>
+
+        <div class="container__form--aside">
+
+            <form class="container__header--top">
+                <div class="header__container--name">
+                    <img class="header__image" src="./src/assets/img/user1.svg" alt="Samuel Persuhn">
+                    <div class="header__container--profissao">
+                        <h2 class="header__name">Samuel Leão</h2>
+                        <small class="header__profissao">Front end Engineer</small>
+                    </div>
+                </div>
+                <input class="header__imput" type="text" name="input" placeholder="Digitar título do post">
+                <textarea class="header__textarea" name="textarea" placeholder="Digitar descrição do post" cols="30"
+                    rows="10"></textarea>
+                <button class="header__button" type="submit">Postar</button>
+            </form>
+            <div class="container__position--absolute">
+
+                <div class="container__position">
+    
+                    <div class="container__aside">
+        
+                        <h2 class="header__sugestoes--tittle">Segestões para você seguir</h2>
+        
+                        <aside>
+                            <ul class="header__sugestoes--list">
+                            </ul>
+                        </aside>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+
+    </header>
+    <main>
+        <div class="container__posts">
+            <h2 class="posts__tittle">Posts</h2>
+            <ul class="posts__lista">
+            </ul>
+        </div>
+    </main>
+
+
+    <dialog class="modal__container">
+    </dialog>
+
+</body>
+
+</html>

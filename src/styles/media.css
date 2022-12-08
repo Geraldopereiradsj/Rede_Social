@@ -1,0 +1,197 @@
+@media (min-width: 597px) {
+
+
+
+    .container__header--top {
+        display: grid;
+    }
+}
+
+
+
+@media (min-width: 1000px) {
+    header {
+        width: 100vw;
+
+    }
+
+    .header__container {
+        height: 55px;
+
+        bottom: 812px;
+        top: 0px;
+
+
+    }
+
+
+    .header__sair {
+        margin-right: 130px;
+    }
+
+
+    .header__imput {
+        width: 500px;
+    }
+
+
+
+    .header__textarea {
+        width: 500px;
+    }
+
+
+
+    .header__button {
+        margin: 10px 0px 0px 475px;
+
+        background-color: var(--brand-color-1);
+        color: var(--color-white);
+    }
+
+
+
+    .posts__lista {
+        width: 780px;
+
+    }
+
+
+
+    .header__sugestoes--tittle {
+        font-size: var(--tittle-family-3);
+
+        margin: 30px 0px 30px 20px;
+
+
+
+
+        left: 674px;
+    }
+
+
+
+    .container__form--aside {
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+
+
+    .header__container--name {
+        margin: 91px 0px 20px 20px;
+    }
+
+    .header__sugestoes--list {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+
+        overflow-x: hidden;
+
+
+    }
+
+    .header__container--user-todos {
+        display: flex;
+        align-items: center;
+
+
+
+    }
+
+    .header__sugestoes--button {
+        margin-top: 10px;
+        height: 25px;
+        background: var(--color-white);
+        border: solid 1px var(--color-grey-2);
+    }
+
+
+
+    .posts__paragraph {
+        width: 60vw;
+    }
+
+    .posts__paragraph--small {
+        width: 60vw;
+    }
+
+
+    .container__position--absolute {
+        position: absolute;
+
+        right: 0px;
+        top: 0px;
+        height: 1000px;
+    }
+
+    .container__position {
+        position: relative;
+        height: 100%;
+
+
+
+
+    }
+
+
+    .container__aside {
+        display: flex;
+        flex-direction: column;
+
+        margin: 70px 90px 0px 0px;
+
+        position: sticky;
+        top: 30px;
+        margin-top: 155px;
+    }
+
+}
+
+
+
+
+
+@media (min-width: 1400px) {
+
+    .header__container {
+        bottom: 944px;
+    }
+
+
+    .header__tittle {
+        margin-left: 100px
+    }
+
+    .container__header--top {
+        margin-left: 90px;
+    }
+
+    .container__posts {
+        margin-left: 90px;
+    }
+}
+
+
+
+
+@media (min-width: 1800px) {
+    .container__aside {
+        margin-right: 241px;
+    }
+}
+
+
+@media (min-width: 2500px) {
+    .header__container {
+        bottom: 2089px;
+    }
+
+
+    .header__sair {
+        margin-right: 285px;
+    }
+}
